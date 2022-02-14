@@ -1,0 +1,240 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media only screen and (min-width: 200px ) {
+    
+
+.show video{
+   position:fixed;
+   max-width: 100%;
+   min-height: fit-content;
+   object-fit: cover;
+    
+}
+.navbar ul{
+    position: relative;
+    top: 230px;
+    display: flex;
+    list-style: none;
+    background-color: #111;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+.logo{
+    position: fixed;
+    top: 0%;
+    left: 10px;
+    color: #111;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.text{
+    position: fixed;
+    left: 50px;
+    top: 40px;
+}
+.text h2{
+    text-align: left;
+    text-decoration: solid;
+    font-size: 2em;
+    text-shadow: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    
+}
+.text p{
+    font-weight: 700;
+    content: normal;
+    font-size: small;
+
+    
+}
+.text button {
+    padding: 0px 4px 4px;
+    font-size: 2em;
+    margin: 10px 0 0 ;
+    background-color: #111;
+    border-radius: 20px;
+    
+}
+.text button a{
+    color: #fff;
+}
+.text button a:hover{
+    letter-spacing: 6px;
+    transition: 0.3s;
+
+}
+
+}
+@media only screen and (min-width: 600px ) {
+
+    .show video{
+        position:fixed;
+        max-width: 100%;
+        min-height: fit-content;
+        object-fit: cover;
+         
+     }
+     .navbar ul{
+        position: relative;
+        top: 430px;
+        display: flex;
+        list-style: none;
+        background-color: #111;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        padding: 10px;
+        color: aliceblue;
+        
+    }
+    
+     .logo{
+         position: fixed;
+         top: 0%;
+         left: 10px;
+         color: #111;
+         text-transform: uppercase;
+         cursor: pointer;
+         z-index: 1000;
+     }
+     
+     .text{
+         position: fixed;
+         left: 70px;
+         top: 70px;
+     }
+     .text h2{
+         text-align: left;
+         text-decoration: solid;
+         font-size: 4em;
+         text-shadow: 40px;
+         font-weight: 800;
+         text-transform: uppercase;
+         
+     }
+     .text p{
+         font-weight: 700;
+         content: normal;
+         font-size: 1.2em;
+         font-family: Arial, Helvetica, sans-serif;
+
+     
+         
+     }
+     .text button {
+         padding: 0px 4px 4px;
+         font-size: 2em;
+         margin: 10px 0 0 ;
+         background-color: #111;
+         border-radius: 20px;
+         
+     }
+     .text button a{
+         color: #fff;
+     }
+     .text button a:hover{
+         letter-spacing: 6px;
+         transition: 0.3s;
+     
+     }
+}
+@media only screen and (min-width: 1000px ) {
+
+    .show video{
+        position:fixed;
+        max-width: 100%;
+        min-height: fit-content;
+        object-fit: cover;
+        
+     }
+     .navbar ul{
+        position: relative;
+        top: 0px;
+        display: flex;
+        list-style: none;
+        background-color: #111;
+        height: 34px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        padding: 10px;
+        color: aliceblue;
+        
+    }
+    .navbar ul li a:hover{
+        letter-spacing: 6px;
+        transition: 00.2s;
+    }    
+     .toggle{
+         z-index: 10;
+     }
+     .logo{
+         position: fixed;
+         top: 0px;
+         left: 87%;
+        
+         color: #fff;
+         text-transform: uppercase;
+         cursor: pointer;
+         z-index: 1000;
+     }
+     
+     .text{
+         position: fixed;
+         left: 110px;
+         top: 100px;
+     }
+     .text h2{
+         text-align: left;
+         text-decoration: solid;
+         font-size: 4em;
+         text-shadow: 40px;
+         font-weight: 800;
+         text-transform: uppercase;
+         
+     }
+     .text p{
+         font-weight: 700;
+         justify-content: center;
+         word-wrap: normal;
+         word-break: normal;
+         font-size: 1.2em;
+         font-family: Arial, Helvetica, sans-serif;
+
+     
+         
+     }
+     .text button {
+         padding: 0px 4px 4px;
+         font-size: 2em;
+         margin: 10px 0 0 ;
+         background-color: #111;
+         border-radius: 20px;
+
+         
+     }
+     .text button a{
+         color: #fff;
+     }
+     .text button a:hover{
+         letter-spacing: 6px;
+         transition: 0.3s;
+     
+     }
+
+
+}
+
